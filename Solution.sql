@@ -64,8 +64,8 @@ FROM (
 WHERE rank = 1;
 
 
-3.List all movies released in a specific year (e.g., 2019)
- Extract the movies that were released in a given year, filtering by the release_year column.
+3.List all movies released in  2019
+ Extract the movies that were released in the  year 2019, filtering by the release_year column.
  
  
  SELECT
