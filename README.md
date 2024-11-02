@@ -1,4 +1,4 @@
-##Netflix SQL Analysis Project
+Netflix SQL Analysis Project
 
 Unlocking Insights in Netflix’s Content Library with SQL 🔍✨
 
