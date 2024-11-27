@@ -216,3 +216,24 @@ GROUP BY country
 ORDER BY tv_show_count DESC
 LIMIT 10;
 
+
+
+
+
+17.Find the Top 10 Cast Members from Nigeria.
+Retrieve the top 10 most frequently appearing cast members in Netflix content produced in Nigeria.
+
+WITH CastList AS (
+    SELECT 
+        UNNEST(string_to_array(casts, ',')) AS individual_cast, 
+        country
+    FROM netflix
+    WHERE country = 'Nigeria' AND casts IS NOT NULL
+)
+SELECT 
+    individual_cast, 
+    COUNT(*) AS cast_count
+FROM CastList
+GROUP BY individual_cast
+ORDER BY cast_count DESC
+LIMIT 10;
