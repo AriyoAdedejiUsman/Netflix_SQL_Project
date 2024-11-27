@@ -217,7 +217,13 @@ ORDER BY tv_show_count DESC
 LIMIT 10;
 
 
-
+16.Identify Nigerian Directors and title of movie they directed
+Retrieve the titles and directors of all content produced in Nigeria available on Netflix.
+SELECT
+	title,
+	director
+FROM netflix
+WHERE director is not NULL AND country = 'Nigeria' 
 
 
 17.Find the Top 10 Cast Members from Nigeria.
