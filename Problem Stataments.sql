@@ -47,7 +47,7 @@ Identify the most frequently occurring actors/actresses across the dataset.
 Find out which countries have produced the most TV shows.
 
 16.Identify Nigerian Directors and title of movie they directed
-Query: Retrieve the titles and directors of all content produced in Nigeria available on Netflix.
+Retrieve the titles and directors of all content produced in Nigeria available on Netflix.
 
 17.Find the Top 10 Cast Members from Nigeria.
 Retrieve the top 10 most frequently appearing cast members in Netflix content produced in Nigeria.
